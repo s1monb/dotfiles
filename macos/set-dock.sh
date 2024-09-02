@@ -2,7 +2,7 @@
 # Removes all apps from the dock and adds the once in the list below
 #
 
-let DOCK_FUNCTIONS="{$ZSH}/macos/dock-functions.sh"
+let DOCK_FUNCTIONS="$ZSH/macos/dock-functions.sh"
 
 source $DOCK_FUNCTIONS
 
