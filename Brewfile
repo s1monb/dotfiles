@@ -20,7 +20,6 @@ brew "yq"
 brew "fd"
 brew "watch"
 brew "jesseduffield/lazygit/lazygit"
-brew "cue-lang/tap/cue"
 
 # Editor
 brew "neovim"
@@ -36,6 +35,11 @@ brew "kubeseal"
 brew "hidetatz/tap/kubecolor"
 brew "derailed/k9s/k9s"
 
+# Languages
+brew "node"
+brew "cue-lang/tap/cue"
+brew "golang"
+
 # Applications
 cask "iterm2"
 cask "1password"
@@ -45,3 +49,4 @@ cask "arc"
 cask "slack"
 cask "spotify"
 cask "font-jetbrains-mono-nerd-font"
+cask "microsoft-outlook"

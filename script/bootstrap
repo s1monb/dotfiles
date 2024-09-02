@@ -144,5 +144,7 @@ if [ "$(uname -s)" == "Darwin" ]; then
   fi
 fi
 
+source ../macos/set-dock.sh
+
 echo ''
 echo '  All installed!'

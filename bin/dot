@@ -53,10 +53,6 @@ $ZSH/homebrew/install.sh 2>&1
 # Add homebrew to path
 source $ZSH/homebrew/path.zsh
 
-if [! -d ~/.tmux/plugins/tpm]; then
-  git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
-fi
-
 # Upgrade homebrew
 echo "› brew update"
 brew update
