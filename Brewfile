@@ -28,6 +28,7 @@ brew "nmap"
 brew "tmux"
 brew "ripgrep"
 brew "fzf"
+brew "typewritten"
 
 # Kubernetes
 brew "tilt"
