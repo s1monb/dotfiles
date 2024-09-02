@@ -6,8 +6,11 @@ export XDG_CONFIG_HOME=$ZSH
 export PROJECTS=~/Code
 
 # Theme
+git clone https://github.com/reobin/typewritten.git "$HOME/.zsh/typewritten"
+
+export fpath+="$HOME/.zsh/typewritten"
 autoload -U promptinit; promptinit
-prompt typewrittene
+prompt typewritten
 
 # Stash your environment variables in ~/.localrc. This means they'll stay out
 # of your main dotfiles repository (which may be public, like this one), but
