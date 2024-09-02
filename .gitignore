@@ -8,6 +8,7 @@
 !macos
 !homebrew
 !git
+!system
 
 !Brewfile
 !first-time-setup.sh
