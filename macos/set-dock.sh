@@ -2,9 +2,7 @@
 # Removes all apps from the dock and adds the once in the list below
 #
 
-let DOCK_FUNCTIONS="$ZSH/macos/dock-functions.sh"
-
-source $DOCK_FUNCTIONS
+source /Users/simon/.dotfiles/macos/dock-functions.sh
 
 declare -a apps=(
     '/Applications/Arc.app'
