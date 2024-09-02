@@ -9,6 +9,7 @@
 !homebrew
 !git
 !system
+!functions
 
 !Brewfile
 !first-time-setup.sh
