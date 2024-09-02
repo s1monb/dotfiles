@@ -36,10 +36,10 @@ brew "hidetatz/tap/kubecolor"
 brew "derailed/k9s/k9s"
 
 # Applications
+cask "iterm2"
 cask "1password"
 cask "amethyst"
 cask "docker"
 cask "arc"
-cask "obsidian"
 cask "slack"
 cask "spotify"
