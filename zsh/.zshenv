@@ -1,1 +1,1 @@
-$XDG_CONFIG_HOME=$HOME/.dotfiles
+XDG_CONFIG_HOME=$HOME/.dotfiles
