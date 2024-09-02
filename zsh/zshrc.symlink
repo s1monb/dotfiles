@@ -5,6 +5,9 @@ export XDG_CONFIG_HOME=$ZSH
 # your project folder that we can `c [tab]` to
 export PROJECTS=~/Code
 
+# Theme
+ZSH_THEME="fwalch"
+
 # Stash your environment variables in ~/.localrc. This means they'll stay out
 # of your main dotfiles repository (which may be public, like this one), but
 # you'll have access to them in your scripts.
