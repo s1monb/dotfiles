@@ -7,7 +7,6 @@ return {
     opts = {
       priorities = {
         tsserver = 10000,
-        angularls = 5,
       },
     },
   },
