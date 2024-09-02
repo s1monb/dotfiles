@@ -12,3 +12,5 @@
 !first-time-setup.sh
 !.gitignore
 !README.md
+
+tmux/plugins
