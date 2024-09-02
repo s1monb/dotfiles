@@ -2,9 +2,9 @@
 # Removes all apps from the dock and adds the once in the list below
 #
 
-let setDock=$XDG_CONFIG_HOME/macos/set-dock.sh
+let DOCK_FUNCTIONS="{$ZSH}/macos/dock-functions.sh"
 
-source $setDock
+source $DOCK_FUNCTIONS
 
 declare -a apps=(
     '/Applications/Arc.app'
