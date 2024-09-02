@@ -6,8 +6,6 @@ export XDG_CONFIG_HOME=$ZSH
 export PROJECTS=~/Code
 
 # Theme
-git clone https://github.com/reobin/typewritten.git "$HOME/.zsh/typewritten"
-
 export fpath+="$HOME/.zsh/typewritten"
 autoload -U promptinit; promptinit
 prompt typewritten

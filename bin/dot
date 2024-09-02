@@ -53,6 +53,12 @@ $ZSH/homebrew/install.sh 2>&1
 # Add homebrew to path
 source $ZSH/homebrew/path.zsh
 
+
+if [ ! -d "$HOME/.zsh/typewritten" ]; then
+  echo "› git clone"
+  git clone https://github.com/reobin/typewritten.git "$HOME/.zsh/typewritten"
+fi
+
 # Upgrade homebrew
 echo "› brew update"
 brew update
