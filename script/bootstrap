@@ -144,8 +144,10 @@ if [ "$(uname -s)" == "Darwin" ]; then
   fi
 fi
 
-source $DOTFILES_ROOT/macos/set-dock.sh
-source $DOTFILES_ROOT/system/set-iterm-font.sh
-
-echo ''
+echo '  '
 echo '  All installed!'
+echo '  '
+echo '  Set the font to JetBrainsMono Nerd Mono Font 14 in iTerm preferences'
+echo '  And restart the computer for all changes to take effect'
+echo '  Dont forget to install the plugins for tmux by pressing prefix + I'
+echo '  '
