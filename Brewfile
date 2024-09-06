@@ -30,6 +30,7 @@ brew "starship"
 
 # Kubernetes
 brew "tilt"
+brew "kind"
 brew "kubeseal"
 brew "kubecolor"
 brew "k9s"
