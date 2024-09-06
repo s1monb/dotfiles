@@ -20,6 +20,7 @@ brew "yq"
 brew "fd"
 brew "watch"
 brew "jesseduffield/lazygit/lazygit"
+brew "remotemobprogramming/brew/mob"
 
 # Editor
 brew "neovim"
@@ -32,8 +33,8 @@ brew "starship"
 # Kubernetes
 brew "tilt"
 brew "kubeseal"
-brew "hidetatz/tap/kubecolor"
-brew "derailed/k9s/k9s"
+brew "kubecolor"
+brew "k9s"
 
 # Languages
 brew "node"
