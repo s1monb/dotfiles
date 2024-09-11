@@ -27,6 +27,7 @@ brew "tmux"
 brew "ripgrep"
 brew "fzf"
 brew "starship"
+brew "gh"
 
 # Kubernetes
 brew "tilt"
