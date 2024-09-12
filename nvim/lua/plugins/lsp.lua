@@ -15,6 +15,7 @@ return {
     opts = {
       inline_hints = { enabled = true },
       servers = {
+        marksman = {},
         jdtls = {
           cmd = {
             "jdtls",
